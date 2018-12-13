@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const AlbumSchema = new Schema({
     title: String,
-    date: Number,
+    date: Date,
     copiesSold: Number,
     numberTracks: Number,
     image: String,
